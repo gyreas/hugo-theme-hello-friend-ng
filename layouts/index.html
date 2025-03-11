@@ -11,6 +11,8 @@
 
             <h1>{{ .Site.Title }}</h1>
 
+            {{ partial "goto-posts.html" . }}
+
             {{ partial "subtitle.html" . }}
 
             {{- with .Site.Params.social }}
